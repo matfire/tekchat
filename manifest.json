@@ -1,0 +1,11 @@
+{
+	"short_name": "TekChat",
+	"name": "TekChat",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#284B63",
+	"theme_color": "#EFF1F3",
+	"icons": [
+		
+	]
+}

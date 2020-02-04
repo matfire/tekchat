@@ -1,0 +1,19 @@
+.bubble {
+	max-width: 15vw;
+	min-width: 5vw;
+	min-height: 5vh;
+	max-height: 10vh;
+	word-wrap: break-word;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+.bubble-other {
+	background-color: green;
+}
+
+.bubble-me {
+	background-color: blue;
+}
