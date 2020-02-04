@@ -35,7 +35,14 @@
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit-icons.min.js"></script>
 	<script>
-
+		if ("serviceWorker" in navigator) {
+			try {
+				navigator.serviceWorker.register("serviceWorker.js")
+				console.log("service worker registered")
+			} catch (error) {
+				console.log(error)
+			}
+		}
 	</script>
 	<script>
 		const drone = new Scaledrone("0jsUZdDJ4ktV5TA3")
