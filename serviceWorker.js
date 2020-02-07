@@ -1,5 +1,4 @@
 const staticAssets = [
-	"./images/",
 	"./home.css",
 	"./index.html"
 ]
